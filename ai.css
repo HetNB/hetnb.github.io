@@ -1,0 +1,92 @@
+/* Rectangle 1 */
+header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    top: 0;
+    background: rgba(123, 75, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 6px solid rgb(123, 123, 123);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    /* 按钮之间的右侧间距 */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    /* 最后一个按钮不设置右侧间距 */
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 23px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #C7BEFF;
+    border-radius: 20px;
+    box-shadow: 12px 9px 12.1px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Rectangle 2 - 导航链接悬停时的样式 */
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-content {
+    width: 735px;
+    height: 583px;
+    margin: 0 auto;
+}
+
+
+
+/* sousuo */
+/* 搜索栏容器样式 */
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* 搜索栏样式 */
+.search-bar {
+    width: 50%;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* 搜索按钮样式 */
+.search-button {
+    background-color: rgba(123, 75, 236);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* 设置搜索按钮与搜索栏之间的间距 */
+}
