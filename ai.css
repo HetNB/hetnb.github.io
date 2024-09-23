@@ -1,4 +1,8 @@
 /* Rectangle 1 */
+
+body {
+    background=color: white;
+}
 header {
     position: absolute;
     width: 100%;
