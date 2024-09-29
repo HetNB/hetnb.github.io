@@ -3,6 +3,7 @@
 body {
     background: white;
 }
+
 header {
     position: absolute;
     width: 100%;
@@ -130,4 +131,47 @@ nav ul li a:hover {
         margin-right: 0
     }
 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    padding: 10px 23px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #C7BEFF;
+    border-radius: 20px;
+}
+
+/* 下拉内容样式 */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c7beff00;
+    /* 设置为不透明的颜色 */
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* 下拉项的样式 */
+.dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* 鼠标悬停时改变下拉项的样式 */
+.dropdown-item:hover {
+    background-color: #d5c3ff;
+    /* 悬停时的背景色 */
+}
+
+/* 鼠标悬停时显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
